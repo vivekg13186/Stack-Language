@@ -40,6 +40,9 @@ Check compile.sh file for reference.
 ## How to run
 
 stack <input file name> <-p> <-d>
-option -p print the complied code
-option -d for debugging, execute each step on keypress.
+- option -p print the complied code
+- option -d for debugging, execute each step on keypress.
+
+## Examples
+Sample file in test folder
 
