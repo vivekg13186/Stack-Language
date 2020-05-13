@@ -5,26 +5,28 @@ Basic programming with few commands.
 
 # Commands
 
-push <number>  - push a number on to stack (e.g. push 23)
-pop            - pop a number from stack (e.g. pop )
-+              - add last two numbers in  stack (e.g. + )
--              - subract last two numbers in  stack (e.g. - )
-*              - multiply last two numbers in  stack (e.g. * )
-/              - divide last two numbers in  stack (e.g. / )
-%              - modulo last two numbers in  stack (e.g. % )
->              - compare last two numbers in  stack (e.g. > )
-<              - compare last two numbers in  stack (e.g. < )
->=             - compare last two numbers in  stack (e.g. >= )
-<=             - compare last two numbers in  stack (e.g. <= )
-!=             - compare last two numbers in  stack (e.g. != )
-==             - compare last two numbers in  stack (e.g. == )
-jmp <number>   - jump code to given line number (e.g. jmp 23 )
-jmpt <number>  - jump code to given line number if last stack value is zero (e.g. jmpt 23 )
-jmpf <number>  - jmp code to given line number if last stack value is not zero (e.g. jmpf 23 )
-print          - prints last stack value (e.g. print )
-get            - wait for user to enter value and push to stack (e.g. get )
-dup            - duplicate last value in stack (e.g. dup )
-exit           - exit the program (e.g. exit )
+| Command     | Description | Example|
+| ----------- | ----------- |----------- |
+| push <number>      | push a number on to stack       | push 23|
+| pop   | pop a number from stack        | pop|
+| +   | add last two numbers in  stack        | +|
+| -   | subract last two numbers in  stack        | -|
+| *   | multiply last two numbers in  stack        | * |
+| /   | divide last two numbers in  stack        | /|
+| %   | modulo last two numbers in  stack        | %|
+| >   | compare last two numbers in  stack        | >|
+| <   | compare last two numbers in  stack       | <|
+| >=   | compare last two numbers in  stack        | <= |
+| <=   | compare last two numbers in  stack        | >=|
+| !=   | compare last two numbers in  stack        | !=|
+| ==   | compare last two numbers in  stack        | ==|
+| jmp <number>   | jump code to given line number        | jmp 23|
+| jmpt <number>   | jump code to given line number if last stack value is zero       | jmpt 23|
+| jmpf <number>   | jmp code to given line number if last stack value is not zero        |  jmpf 23 |
+| print   | prints last stack value       | print|
+| get   | wait for user to enter value and push to stack       | get|
+| dup   | duplicate last value in stack        | dup|
+| exit   | exit the program        | exit|
 
 
 ## How to build
