@@ -1,0 +1,1 @@
+g++ -std=c++17 stack.cpp -o ./bin/stack

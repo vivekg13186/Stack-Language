@@ -1,0 +1,11 @@
+push 0
+push 2
++
+print
+dup
+push 1000
+-
+jmpt 10
+push 2
+jmp 2
+exit
