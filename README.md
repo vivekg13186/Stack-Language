@@ -31,10 +31,10 @@ Basic programming with few commands.
 
 ## How to build
 
-Build with single file "stack.cpp".
-Supports all platform.
-No external dependency.
-Check compile.sh file for reference.
+- Build with single file "stack.cpp".
+- Supports all platform.
+- No external dependency.
+- Check compile.sh file for reference.
 
 
 ## How to run
